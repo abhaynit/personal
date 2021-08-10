@@ -2,7 +2,7 @@ import xlsxwriter
 outWorkbook = xlsxwriter.Workbook("out.xlsx")
 outSheet = outWorkbook.add_worksheet()
 
-NAME = ["NAMES","ABHAY KUMAR","DENNY H KONYAK","ANJANA","BEN"]
+NAME = ["NAMES","ANKIT KUMAR","DENNY H KONYAK","ANJANA","BEN"]
 BRANCH = ["SALARY",10000,10000,200000,300000]
 
 for i  in range(len(NAME)):
